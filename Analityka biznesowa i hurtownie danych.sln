@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Zestaw 1", "Zestaw 1\Zestaw 1\Zestaw 1.dtproj", "{BD3EE160-80F3-4E01-A909-60F715EB9082}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Zestaw 2", "Zestaw 2\Integration Services Project1\Zestaw 2.dtproj", "{AE187AA8-0854-41E9-8ABF-B595F7B8D3AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD3EE160-80F3-4E01-A909-60F715EB9082}.Development|Default.ActiveCfg = Development
+		{BD3EE160-80F3-4E01-A909-60F715EB9082}.Development|Default.Build.0 = Development
+		{AE187AA8-0854-41E9-8ABF-B595F7B8D3AA}.Development|Default.ActiveCfg = Development
+		{AE187AA8-0854-41E9-8ABF-B595F7B8D3AA}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F20D0DEB-2D21-4D9D-8BD2-ACEED80FDC08}
+	EndGlobalSection
+EndGlobal
