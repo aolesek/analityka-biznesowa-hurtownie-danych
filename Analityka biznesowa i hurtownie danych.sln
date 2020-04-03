@@ -7,6 +7,8 @@ Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Zestaw 1", "Zestaw 1\Zestaw
 EndProject
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Zestaw 2", "Zestaw 2\Integration Services Project1\Zestaw 2.dtproj", "{AE187AA8-0854-41E9-8ABF-B595F7B8D3AA}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Zestaw 3", "Zestaw 3\Zestaw 3.dwproj", "{87D8BDC1-6A40-4CE8-994E-ABBF2CA9328D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -16,6 +18,9 @@ Global
 		{BD3EE160-80F3-4E01-A909-60F715EB9082}.Development|Default.Build.0 = Development
 		{AE187AA8-0854-41E9-8ABF-B595F7B8D3AA}.Development|Default.ActiveCfg = Development
 		{AE187AA8-0854-41E9-8ABF-B595F7B8D3AA}.Development|Default.Build.0 = Development
+		{87D8BDC1-6A40-4CE8-994E-ABBF2CA9328D}.Development|Default.ActiveCfg = Development
+		{87D8BDC1-6A40-4CE8-994E-ABBF2CA9328D}.Development|Default.Build.0 = Development
+		{87D8BDC1-6A40-4CE8-994E-ABBF2CA9328D}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
