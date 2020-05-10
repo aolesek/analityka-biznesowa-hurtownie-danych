@@ -1,0 +1,285 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f0e9deb5-d6f6-4452-a76e-ec92691a3afb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Linie Lotnicze</ID>
+  <Name>Linie Lotnicze</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2142" scrolltop="-6371" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7324" y="16489" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="linie_lotnicze" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_linie_lotnicze" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2142</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6371</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8e9037f4-0061-4d9d-a232-c6da82834fcb">
+    <DataSourceViewID>BAZA</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="e6d1b725-e03c-44a9-9ce3-334e3996a179">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="3633c9ab-dcab-481a-b77d-51e5bf9e6463">
+      <ID>Airline OF</ID>
+      <Name>Airline OF</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3e5dd995-3cf7-490d-a4d4-348367f1d0c7">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="158001fb-8ad8-4438-ace5-e56c11f5b963">
+            <TableID>dbo_linie_lotnicze</TableID>
+            <ColumnID>AirlineOF</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="30c4fe3b-ab77-4adf-86b7-c4f092dae770">
+          <AttributeID>Column 1</AttributeID>
+          <Name>Column 1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8c7f3e11-1e55-4211-9973-814c706e6db7">
+          <AttributeID>Alias</AttributeID>
+          <Name>Alias</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0b0e4eb5-7680-4d91-95d9-3bca2c0204eb">
+          <AttributeID>IATA</AttributeID>
+          <Name>IATA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="59867fa8-32c4-4e1b-aacd-ebf7fe4e7985">
+          <AttributeID>ICAO</AttributeID>
+          <Name>ICAO</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="10b114c9-d87c-4217-904d-75fa2d12fe26">
+          <AttributeID>Column 5</AttributeID>
+          <Name>Column 5</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5d0e2209-ae6f-424d-b63c-a46f49666cba">
+          <AttributeID>Country</AttributeID>
+          <Name>Country</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7dc6ce9c-cfca-4872-a311-75d0622af7e5">
+          <AttributeID>Column 7</AttributeID>
+          <Name>Column 7</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a56fd409-1e2a-4bac-986b-a5da56526956">
+      <ID>Column 1</ID>
+      <Name>Column 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3066bf0f-3d50-49fc-8093-d997edd8b3d1">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2bbc35ef-3c4a-473c-a9bf-4a565050a523">
+            <TableID>dbo_linie_lotnicze</TableID>
+            <ColumnID>Column_x0020_1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6cf24abd-37cb-444f-9ce9-394492340ab1">
+      <ID>Alias</ID>
+      <Name>Alias</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2fe9f9db-dd4c-43c9-8e45-90b225bb5799">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="363eac21-11ac-413e-b9a1-b69019fbd4a0">
+            <TableID>dbo_linie_lotnicze</TableID>
+            <ColumnID>Alias</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cfd91ed6-9265-41d0-b40a-6facf6b01f99">
+      <ID>IATA</ID>
+      <Name>IATA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="19b68ca2-15dd-4b12-a9c5-534e1f4b3035">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3db88ac0-8487-4e82-a2e8-d824d18656ab">
+            <TableID>dbo_linie_lotnicze</TableID>
+            <ColumnID>IATA</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4e1f25e8-bba9-4359-a11a-eab097a3655f">
+      <ID>ICAO</ID>
+      <Name>ICAO</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b9791288-bf2f-4e60-a880-da22378bd069">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8bae7402-de9f-462a-867c-b8a9ea8b7026">
+            <TableID>dbo_linie_lotnicze</TableID>
+            <ColumnID>ICAO</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="84b36695-48cc-4577-9cef-a74e9e40def4">
+      <ID>Column 5</ID>
+      <Name>Column 5</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c27c3208-9b30-47bc-acd1-5a5b86c42f96">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c394457a-8dbd-4a38-80c3-1f431738c580">
+            <TableID>dbo_linie_lotnicze</TableID>
+            <ColumnID>Column_x0020_5</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="71872893-fc58-4aff-8509-971f3928ab88">
+      <ID>Country</ID>
+      <Name>Country</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="be9ae739-618e-4755-9f5f-ccb2916915e4">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="90439f49-fe5c-4021-94e4-d18d47a13978">
+            <TableID>dbo_linie_lotnicze</TableID>
+            <ColumnID>Country</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="886b09bc-acf7-4321-95b4-b2aea7fb0c88">
+      <ID>Column 7</ID>
+      <Name>Column 7</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="88828ebf-112d-4819-a0d9-b9370f5e34d9">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="368bb6bf-1977-4dd9-a93a-5c3de7dafcc3">
+            <TableID>dbo_linie_lotnicze</TableID>
+            <ColumnID>Column_x0020_7</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="30826a9b-a04d-487d-8883-b8031242f7fa">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="510d88ed-2831-446f-9de5-a5b0124d906e">
+          <ID>Column 7</ID>
+          <Name>Column 7</Name>
+          <SourceAttributeID>Column 7</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d9d0487c-8035-414d-85aa-c28d81f381d2">
+          <ID>Country</ID>
+          <Name>Country</Name>
+          <SourceAttributeID>Country</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e7a48dfb-89ed-45ca-bb97-2c9046240b0c">
+          <ID>Airline OF</ID>
+          <Name>Airline OF</Name>
+          <SourceAttributeID>Airline OF</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="4c4f3435-8515-4dd4-9703-229252ada281">
+          <ID>IATA</ID>
+          <Name>IATA</Name>
+          <SourceAttributeID>IATA</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ee22648f-2ca9-4682-b615-317dbd5d39ee">
+          <ID>ICAO</ID>
+          <Name>ICAO</Name>
+          <SourceAttributeID>ICAO</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,363 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="42733c77-0e75-45df-9d45-4a0990db7726" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Porty Lotnicze</ID>
+  <Name>Porty Lotnicze</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2142" scrolltop="-5744" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7324" y="16489" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="porty_lotnicze" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_porty_lotnicze" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2142</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5744</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3175ea0c-c7dc-4556-a960-899071e76ee8">
+    <DataSourceViewID>BAZA</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="a721d583-d669-4b67-91a0-aa9478ea82ec">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="faa24137-9fa7-4d39-9ab8-61cbc990e8e7">
+      <ID>Ident</ID>
+      <Name>Ident</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0b9a4a9e-e400-4d59-a74f-ed9acfb97a71">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="20d22b47-0a25-4232-99a7-c94b84ebef63">
+            <TableID>dbo_porty_lotnicze</TableID>
+            <ColumnID>ident</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="5aa28496-426f-480a-95a5-03315906ccdb">
+          <AttributeID>Type</AttributeID>
+          <Name>Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4e8e4389-291b-4813-99ef-3ef72106d389">
+          <AttributeID>Name</AttributeID>
+          <Name>Name_</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9d2f6af4-1fc8-4df7-b9a9-1bd5385b3ead">
+          <AttributeID>Elevation Ft</AttributeID>
+          <Name>Elevation Ft</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e69c04aa-676a-4677-bc7b-4ea7051495e2">
+          <AttributeID>Continent</AttributeID>
+          <Name>Continent</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a81854b9-bc66-4754-bc9a-74aa4bc0d3ae">
+          <AttributeID>Iso Country</AttributeID>
+          <Name>Iso Country</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7490fe60-5598-468f-8857-9348881f5433">
+          <AttributeID>Iso Region</AttributeID>
+          <Name>Iso Region</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="85df255a-7921-4417-8d91-99a627a5b8e4">
+          <AttributeID>Municipality</AttributeID>
+          <Name>Municipality</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="050de19f-d563-4fe6-b1fc-f64a9d2f2095">
+          <AttributeID>Gps Code</AttributeID>
+          <Name>Gps Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cafa0e19-6455-4806-966a-62abd55aa0bd">
+          <AttributeID>Iata Code</AttributeID>
+          <Name>Iata Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6ebc3178-58dc-4f34-a351-d6b5173d95a1">
+          <AttributeID>Local Code</AttributeID>
+          <Name>Local Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="faef96de-7a03-4a3b-8d8c-258d8733b887">
+          <AttributeID>Coordinates</AttributeID>
+          <Name>Coordinates</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a36af135-9ab9-4377-81be-a77e56afcca8">
+      <ID>Type</ID>
+      <Name>Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ce970411-e5b2-4c3a-815a-cd32fa534f2d">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6424c5ad-9751-43d3-ad30-c199deb92d76">
+            <TableID>dbo_porty_lotnicze</TableID>
+            <ColumnID>type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="60938a54-9a70-4492-932f-235d2cfc8aed">
+      <ID>Name</ID>
+      <Name>Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c8a9ac79-ac4f-4c7d-9721-fbeb88801b42">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0d0bb423-7ebb-49d6-ae59-9675e9c7dfc9">
+            <TableID>dbo_porty_lotnicze</TableID>
+            <ColumnID>name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bf181e97-7fbc-4525-b391-9ec1def03aff">
+      <ID>Elevation Ft</ID>
+      <Name>Elevation Ft</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d5c3e530-2f8c-42ae-9582-091af3ae7fd1">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="038bc559-693a-49ec-b227-61098f24d1b1">
+            <TableID>dbo_porty_lotnicze</TableID>
+            <ColumnID>elevation_ft</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5dc5b8c1-8da9-46dc-b6ef-c75d3d841038">
+      <ID>Continent</ID>
+      <Name>Continent</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="59bd539d-8e7c-48ae-b0fc-3c8c5ae1fb3d">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6b1172c5-5271-4868-95e3-b88755085b8d">
+            <TableID>dbo_porty_lotnicze</TableID>
+            <ColumnID>continent</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2a9afdff-7ce4-40b5-b451-000457428c15">
+      <ID>Iso Country</ID>
+      <Name>Iso Country</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e707557f-c2a5-4fe2-8ab4-ac4009350a9a">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="00d6f3e2-f8a3-481e-85f6-11f7e599633f">
+            <TableID>dbo_porty_lotnicze</TableID>
+            <ColumnID>iso_country</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9886f995-fdb0-4d19-9565-2edbcce91f26">
+      <ID>Iso Region</ID>
+      <Name>Iso Region</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7d19c1e2-cea5-4abf-ba1b-6dc2aae6c312">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="57ab2ee8-f9a5-4537-9103-575ecfd60c69">
+            <TableID>dbo_porty_lotnicze</TableID>
+            <ColumnID>iso_region</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3ee8fd4b-1ac2-4d28-82e3-55d9963aac2c">
+      <ID>Municipality</ID>
+      <Name>Municipality</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bd882138-f313-4637-8f62-e14506d7f42c">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e24a6cb2-daf1-432e-8154-c2009fb0396d">
+            <TableID>dbo_porty_lotnicze</TableID>
+            <ColumnID>municipality</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="be1185b4-a6f8-44c5-a812-90d50a09aadc">
+      <ID>Gps Code</ID>
+      <Name>Gps Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9fc50932-a6ed-46db-ab0e-59b056d06fca">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7fe7ec19-d108-4a75-b423-e1a5a18d2ae1">
+            <TableID>dbo_porty_lotnicze</TableID>
+            <ColumnID>gps_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f9fd6354-af0b-4876-bddd-cabc899eb3d5">
+      <ID>Iata Code</ID>
+      <Name>Iata Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="32b742e5-45cc-4e5f-97cd-10b0e72379db">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="72f61eb6-d737-46b0-827f-03a8be48cd2d">
+            <TableID>dbo_porty_lotnicze</TableID>
+            <ColumnID>iata_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="52a103a3-3e1c-4ae7-b0d1-3b9b7e1562b5">
+      <ID>Local Code</ID>
+      <Name>Local Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4e17a32d-ec31-4444-b5ef-bb2e6b661495">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a9aa3e2c-6cf5-4c41-853a-f16e5d078f0b">
+            <TableID>dbo_porty_lotnicze</TableID>
+            <ColumnID>local_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4d93c0c8-bf93-4d9f-b547-eb8ba0b5fc3f">
+      <ID>Coordinates</ID>
+      <Name>Coordinates</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6e883770-0862-478d-baf5-e5240b0101e8">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5493d3af-26f8-4e1d-98ba-ccf89cd733e9">
+            <TableID>dbo_porty_lotnicze</TableID>
+            <ColumnID>coordinates</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="91ada4d7-02c4-4dfa-a021-6b334e35280a">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="79c10fad-6960-4a1d-b09f-23a49e4918dc">
+          <ID>Type</ID>
+          <Name>Type</Name>
+          <SourceAttributeID>Type</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9b9b1a9c-1745-45f1-b165-f131a9a32542">
+          <ID>Continent</ID>
+          <Name>Continent</Name>
+          <SourceAttributeID>Continent</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="6df48a52-5ab5-4d70-9c1b-3bcf6324eae0">
+          <ID>Iso Country</ID>
+          <Name>Iso Country</Name>
+          <SourceAttributeID>Iso Country</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="57891fbd-cc9e-45d3-8977-82908d5c9fb5">
+          <ID>Iso Region</ID>
+          <Name>Iso Region</Name>
+          <SourceAttributeID>Iso Region</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="dc6b33ac-a1dc-470d-8ba6-564e1e8bb420">
+          <ID>Name</ID>
+          <Name>Name</Name>
+          <SourceAttributeID>Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="139c57df-1195-43a7-ac8c-40486c498434">
+          <ID>Coordinates</ID>
+          <Name>Coordinates</Name>
+          <SourceAttributeID>Coordinates</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

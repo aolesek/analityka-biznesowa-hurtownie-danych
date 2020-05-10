@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "zestaw_6_2", "zestaw_6_2\zestaw_6_2.dtproj", "{33ED2441-857E-44E7-8DE7-A65FC0AF80D8}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MultidimensionalProject1", "MultidimensionalProject1\MultidimensionalProject1.dwproj", "{3370CD50-54D2-4BAA-B1EC-FD9AFC6B959D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33ED2441-857E-44E7-8DE7-A65FC0AF80D8}.Development|Default.ActiveCfg = Development
+		{33ED2441-857E-44E7-8DE7-A65FC0AF80D8}.Development|Default.Build.0 = Development
+		{3370CD50-54D2-4BAA-B1EC-FD9AFC6B959D}.Development|Default.ActiveCfg = Development
+		{3370CD50-54D2-4BAA-B1EC-FD9AFC6B959D}.Development|Default.Build.0 = Development
+		{3370CD50-54D2-4BAA-B1EC-FD9AFC6B959D}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC3563C5-8AFF-478C-8FCA-5939FAFCB275}
+	EndGlobalSection
+EndGlobal
